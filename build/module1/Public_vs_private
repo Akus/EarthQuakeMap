@@ -1,0 +1,13 @@
+private variable-ök csak az adott osztályban/függvényben érhetők el.
+
+rule of thumb:
+make member variables private (and methods either public or private)
+
+methods:
+public: for world use
+private: helper methods
+
+
+giving the right access level
+->
+getters and setters

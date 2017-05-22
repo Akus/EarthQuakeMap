@@ -1,0 +1,646 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#module4_unClass.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "2" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node1al5fk1hqx9708 .
+
+_:node1al5fk1hqx9708 a atxa-core:node ;
+	atxa-core:model atxa-jdt-wkspc:module4 ;
+	atxa-core:posX "166" ;
+	atxa-core:posY "149" .
+
+atxa-jdt-wkspc:module4 atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker> , <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker> , <http://www.architexa.com/rdf/jdt-wkspc#module4$OceanQuakeMarker> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker> .
+
+_:node1al5fk1hqx9708 atxa-core:contains _:node1al5fk1hqx9769 .
+
+_:node1al5fk1hqx9769 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap> ;
+	atxa-core:posX "849" ;
+	atxa-core:posY "175" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.setup()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.addKey()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.cityFile> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.cityMarkers> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.countryFile> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.countryMarkers> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.draw()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.EarthquakeCityMap()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.earthquakesURL> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.isInCountry(PointFeature,Marker,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.isLand(PointFeature,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.map> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.mbTilesString> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.offline> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.printQuakes()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.quakeMarkers> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.serialVersionUID> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.size(int,int,String,)> .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9773 .
+
+_:node1al5fk1hqx9773 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.setup()> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "364" .
+
+_:node1al5fk1hqx2104 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9773 ;
+	rdf:object _:node1al5fk1hqx9745 .
+
+_:node1al5fk1hqx2225 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9773 ;
+	rdf:object _:node1al5fk1hqx9754 .
+
+_:node1al5fk1hqx7355 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9773 ;
+	rdf:object _:node1al5fk1hqx9766 .
+
+_:node1al5fk1hqx8120 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9773 ;
+	rdf:object _:node1al5fk1hqx9782 .
+
+_:node1al5fk1hqx8131 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9773 ;
+	rdf:object _:node1al5fk1hqx9787 .
+
+_:node1al5fk1hqx8132 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9773 ;
+	rdf:object _:node1al5fk1hqx9788 .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9789 .
+
+_:node1al5fk1hqx9789 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.addKey()> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "381" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9790 .
+
+_:node1al5fk1hqx9790 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.cityFile> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "194" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9791 .
+
+_:node1al5fk1hqx9791 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.cityMarkers> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "211" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9792 .
+
+_:node1al5fk1hqx9792 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.countryFile> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "228" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9793 .
+
+_:node1al5fk1hqx9793 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.countryMarkers> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "245" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9794 .
+
+_:node1al5fk1hqx9794 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.draw()> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "398" .
+
+_:node1al5fk1hqx9081 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9794 ;
+	rdf:object _:node1al5fk1hqx9789 .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9795 .
+
+_:node1al5fk1hqx9795 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.EarthquakeCityMap()> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "415" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9797 .
+
+_:node1al5fk1hqx9797 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.earthquakesURL> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "262" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9798 .
+
+_:node1al5fk1hqx9798 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.isInCountry(PointFeature,Marker,)> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "432" .
+
+_:node1al5fk1hqx9575 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9798 ;
+	rdf:object _:node1al5fk1hqx9799 .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9782 .
+
+_:node1al5fk1hqx9782 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.isLand(PointFeature,)> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "449" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9800 .
+
+_:node1al5fk1hqx9800 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.map> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "279" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9801 .
+
+_:node1al5fk1hqx9801 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.mbTilesString> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "296" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9802 .
+
+_:node1al5fk1hqx9802 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.offline> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "313" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9787 .
+
+_:node1al5fk1hqx9787 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.printQuakes()> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "466" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9803 .
+
+_:node1al5fk1hqx9803 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.quakeMarkers> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "330" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9804 .
+
+_:node1al5fk1hqx9804 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.serialVersionUID> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "347" .
+
+_:node1al5fk1hqx9769 atxa-core:contains _:node1al5fk1hqx9788 .
+
+_:node1al5fk1hqx9788 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeCityMap.size(int,int,String,)> ;
+	atxa-core:posX "850" ;
+	atxa-core:posY "483" .
+
+_:node1al5fk1hqx9708 atxa-core:contains _:node1al5fk1hqx9709 .
+
+_:node1al5fk1hqx9709 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker> ;
+	atxa-core:posX "175" ;
+	atxa-core:posY "181" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.colorDetermine(PGraphics,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.draw(PGraphics,float,float,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.drawEarthquake(PGraphics,float,float,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.EarthquakeMarker(PointFeature,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getDepth()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getMagnitude()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getRadius()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getTitle()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.isOnLand> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.isOnLand()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.radius> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.THRESHOLD_DEEP> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.THRESHOLD_INTERMEDIATE> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.THRESHOLD_LIGHT> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.THRESHOLD_MODERATE> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.setProperties(HashMap,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getProperty(String,)> .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9712 .
+
+_:node1al5fk1hqx9712 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.colorDetermine(PGraphics,)> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "302" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9713 .
+
+_:node1al5fk1hqx9713 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.draw(PGraphics,float,float,)> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "319" .
+
+_:node1al5fk1hqx190 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9713 ;
+	rdf:object _:node1al5fk1hqx9712 .
+
+_:node1al5fk1hqx707 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9713 ;
+	rdf:object _:node1al5fk1hqx9714 .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9714 .
+
+_:node1al5fk1hqx9714 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.drawEarthquake(PGraphics,float,float,)> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "336" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9717 .
+
+_:node1al5fk1hqx9717 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.EarthquakeMarker(PointFeature,)> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "353" .
+
+_:node1al5fk1hqx1212 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9717 ;
+	rdf:object _:node1al5fk1hqx9721 .
+
+_:node1al5fk1hqx1219 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9717 ;
+	rdf:object _:node1al5fk1hqx9725 .
+
+_:node1al5fk1hqx1211 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9717 ;
+	rdf:object _:node1al5fk1hqx9720 .
+
+_:node1al5fk1hqx1213 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9717 ;
+	rdf:object _:node1al5fk1hqx9722 .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9728 .
+
+_:node1al5fk1hqx9728 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getDepth()> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "370" .
+
+_:node1al5fk1hqx1295 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9728 ;
+	rdf:object _:node1al5fk1hqx9729 .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9721 .
+
+_:node1al5fk1hqx9721 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getMagnitude()> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "387" .
+
+_:node1al5fk1hqx1708 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9721 ;
+	rdf:object _:node1al5fk1hqx9729 .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9730 .
+
+_:node1al5fk1hqx9730 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getRadius()> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "404" .
+
+_:node1al5fk1hqx1791 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9730 ;
+	rdf:object _:node1al5fk1hqx9729 .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9731 .
+
+_:node1al5fk1hqx9731 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getTitle()> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "421" .
+
+_:node1al5fk1hqx1792 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9731 ;
+	rdf:object _:node1al5fk1hqx9729 .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9732 .
+
+_:node1al5fk1hqx9732 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.isOnLand> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "200" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9733 .
+
+_:node1al5fk1hqx9733 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.isOnLand()> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "438" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9734 .
+
+_:node1al5fk1hqx9734 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.radius> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "217" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9735 .
+
+_:node1al5fk1hqx9735 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.THRESHOLD_DEEP> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "234" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9736 .
+
+_:node1al5fk1hqx9736 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.THRESHOLD_INTERMEDIATE> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "251" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9737 .
+
+_:node1al5fk1hqx9737 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.THRESHOLD_LIGHT> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "268" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9738 .
+
+_:node1al5fk1hqx9738 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.THRESHOLD_MODERATE> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "285" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9725 .
+
+_:node1al5fk1hqx9725 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.setProperties(HashMap,)> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "455" .
+
+_:node1al5fk1hqx9709 atxa-core:contains _:node1al5fk1hqx9729 .
+
+_:node1al5fk1hqx9729 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$EarthquakeMarker.getProperty(String,)> ;
+	atxa-core:posX "176" ;
+	atxa-core:posY "472" .
+
+_:node1al5fk1hqx9708 atxa-core:contains _:node1al5fk1hqx9739 .
+
+_:node1al5fk1hqx9739 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker> ;
+	atxa-core:posX "172" ;
+	atxa-core:posY "689" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker.drawEarthquake(PGraphics,float,float,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker.LandQuakeMarker(PointFeature,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker.getCountry()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker.getProperty(String,)> .
+
+_:node1al5fk1hqx21 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node1al5fk1hqx9739 ;
+	rdf:object _:node1al5fk1hqx9709 ;
+	atxa-core:bendpoint _:node1al5fk1hqx9740 .
+
+_:node1al5fk1hqx9740 atxa-core:bpLocation "186,261" ;
+	atxa-core:bpIndex "0" .
+
+_:node1al5fk1hqx21 atxa-core:bendpoint _:node1al5fk1hqx9741 .
+
+_:node1al5fk1hqx9741 atxa-core:bpLocation "244,261" ;
+	atxa-core:bpIndex "1" .
+
+_:node1al5fk1hqx9739 atxa-core:contains _:node1al5fk1hqx9742 .
+
+_:node1al5fk1hqx9742 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker.drawEarthquake(PGraphics,float,float,)> ;
+	atxa-core:posX "173" ;
+	atxa-core:posY "708" .
+
+_:node1al5fk1hqx720 a atxa-core:link ;
+	atxa-core:model atxa-jdt:overrides ;
+	rdf:subject _:node1al5fk1hqx9742 ;
+	rdf:object _:node1al5fk1hqx9714 ;
+	atxa-core:bendpoint _:node1al5fk1hqx13861 .
+
+_:node1al5fk1hqx13861 atxa-core:bpLocation "265,368" ;
+	atxa-core:bpIndex "0" .
+
+_:node1al5fk1hqx720 atxa-core:bendpoint _:node1al5fk1hqx13862 .
+
+_:node1al5fk1hqx13862 atxa-core:bpLocation "310,368" ;
+	atxa-core:bpIndex "1" .
+
+_:node1al5fk1hqx9739 atxa-core:contains _:node1al5fk1hqx9745 .
+
+_:node1al5fk1hqx9745 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker.LandQuakeMarker(PointFeature,)> ;
+	atxa-core:posX "173" ;
+	atxa-core:posY "725" .
+
+_:node1al5fk1hqx1079 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9745 ;
+	rdf:object _:node1al5fk1hqx9717 .
+
+_:node1al5fk1hqx9739 atxa-core:contains _:node1al5fk1hqx9746 .
+
+_:node1al5fk1hqx9746 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker.getCountry()> ;
+	atxa-core:posX "173" ;
+	atxa-core:posY "742" .
+
+_:node1al5fk1hqx2013 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9746 ;
+	rdf:object _:node1al5fk1hqx9747 .
+
+_:node1al5fk1hqx9739 atxa-core:contains _:node1al5fk1hqx9747 .
+
+_:node1al5fk1hqx9747 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$LandQuakeMarker.getProperty(String,)> ;
+	atxa-core:posX "173" ;
+	atxa-core:posY "759" .
+
+_:node1al5fk1hqx9708 atxa-core:contains _:node1al5fk1hqx9748 .
+
+_:node1al5fk1hqx9748 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$OceanQuakeMarker> ;
+	atxa-core:posX "427" ;
+	atxa-core:posY "715" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#module4$OceanQuakeMarker> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#module4$OceanQuakeMarker.drawEarthquake(PGraphics,float,float,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$OceanQuakeMarker.OceanQuakeMarker(PointFeature,)> .
+
+_:node1al5fk1hqx20 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node1al5fk1hqx9748 ;
+	rdf:object _:node1al5fk1hqx9709 ;
+	atxa-core:bendpoint _:node1al5fk1hqx13863 .
+
+_:node1al5fk1hqx13863 atxa-core:bpLocation "527,510" ;
+	atxa-core:bpIndex "0" .
+
+_:node1al5fk1hqx20 atxa-core:bendpoint _:node1al5fk1hqx13864 .
+
+_:node1al5fk1hqx13864 atxa-core:bpLocation "313,510" ;
+	atxa-core:bpIndex "1" .
+
+_:node1al5fk1hqx9748 atxa-core:contains _:node1al5fk1hqx9751 .
+
+_:node1al5fk1hqx9751 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$OceanQuakeMarker.drawEarthquake(PGraphics,float,float,)> ;
+	atxa-core:posX "428" ;
+	atxa-core:posY "734" .
+
+_:node1al5fk1hqx1018 a atxa-core:link ;
+	atxa-core:model atxa-jdt:overrides ;
+	rdf:subject _:node1al5fk1hqx9751 ;
+	rdf:object _:node1al5fk1hqx9714 ;
+	atxa-core:bendpoint _:node1al5fk1hqx13865 .
+
+_:node1al5fk1hqx13865 atxa-core:bpLocation "524,368" ;
+	atxa-core:bpIndex "0" .
+
+_:node1al5fk1hqx1018 atxa-core:bendpoint _:node1al5fk1hqx13866 .
+
+_:node1al5fk1hqx13866 atxa-core:bpLocation "310,368" ;
+	atxa-core:bpIndex "1" .
+
+_:node1al5fk1hqx9748 atxa-core:contains _:node1al5fk1hqx9754 .
+
+_:node1al5fk1hqx9754 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$OceanQuakeMarker.OceanQuakeMarker(PointFeature,)> ;
+	atxa-core:posX "428" ;
+	atxa-core:posY "751" .
+
+_:node1al5fk1hqx1142 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9754 ;
+	rdf:object _:node1al5fk1hqx9717 .
+
+_:node1al5fk1hqx9708 atxa-core:contains _:node1al5fk1hqx9755 .
+
+_:node1al5fk1hqx9755 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker> ;
+	atxa-core:posX "569" ;
+	atxa-core:posY "201" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.cityFile> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.CityMarker(Location,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.draw(PGraphics,float,float,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.getCity()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.getCountry()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.getPopulation()> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.TRI_SIZE> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.CityMarker(Feature,)> , <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.getStringProperty(String,)> .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9758 .
+
+_:node1al5fk1hqx9758 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.cityFile> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "220" .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9759 .
+
+_:node1al5fk1hqx9759 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.CityMarker(Location,)> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "254" .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9760 .
+
+_:node1al5fk1hqx9760 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.draw(PGraphics,float,float,)> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "271" .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9761 .
+
+_:node1al5fk1hqx9761 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.getCity()> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "288" .
+
+_:node1al5fk1hqx7246 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9761 ;
+	rdf:object _:node1al5fk1hqx9762 .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9763 .
+
+_:node1al5fk1hqx9763 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.getCountry()> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "305" .
+
+_:node1al5fk1hqx7494 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9763 ;
+	rdf:object _:node1al5fk1hqx9762 .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9764 .
+
+_:node1al5fk1hqx9764 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.getPopulation()> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "322" .
+
+_:node1al5fk1hqx7495 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9764 ;
+	rdf:object _:node1al5fk1hqx9762 .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9765 .
+
+_:node1al5fk1hqx9765 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.TRI_SIZE> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "237" .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9766 .
+
+_:node1al5fk1hqx9766 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.CityMarker(Feature,)> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "339" .
+
+_:node1al5fk1hqx7405 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node1al5fk1hqx9766 ;
+	rdf:object _:node1al5fk1hqx9720 .
+
+_:node1al5fk1hqx9755 atxa-core:contains _:node1al5fk1hqx9762 .
+
+_:node1al5fk1hqx9762 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#module4$CityMarker.getStringProperty(String,)> ;
+	atxa-core:posX "570" ;
+	atxa-core:posY "356" .
+
+atxa-core:docRoot atxa-core:contains _:node1al5fk1hqx9813 .
+
+_:node1al5fk1hqx9813 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data> ;
+	atxa-core:posX "733" ;
+	atxa-core:posY "622" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature> .
+
+_:node1al5fk1hqx9813 atxa-core:contains _:node1al5fk1hqx9815 .
+
+_:node1al5fk1hqx9815 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature> ;
+	atxa-core:posX "739" ;
+	atxa-core:posY "648" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature.getLocation()> , <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature.getProperties()> , <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature.addProperty(String,Object,)> .
+
+_:node1al5fk1hqx9815 atxa-core:contains _:node1al5fk1hqx9720 .
+
+_:node1al5fk1hqx9720 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature.getLocation()> ;
+	atxa-core:posX "740" ;
+	atxa-core:posY "667" .
+
+_:node1al5fk1hqx9815 atxa-core:contains _:node1al5fk1hqx9722 .
+
+_:node1al5fk1hqx9722 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature.getProperties()> ;
+	atxa-core:posX "740" ;
+	atxa-core:posY "684" .
+
+_:node1al5fk1hqx9815 atxa-core:contains _:node1al5fk1hqx9799 .
+
+_:node1al5fk1hqx9799 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#de.fhpotsdam.unfolding.data$PointFeature.addProperty(String,Object,)> ;
+	atxa-core:posX "740" ;
+	atxa-core:posY "701" .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#module4_unClass.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node1al5fk1hqx9773 , _:node1al5fk1hqx9789 , _:node1al5fk1hqx9790 , _:node1al5fk1hqx9791 , _:node1al5fk1hqx9792 , _:node1al5fk1hqx9793 , _:node1al5fk1hqx9794 , _:node1al5fk1hqx9795 , _:node1al5fk1hqx9797 , _:node1al5fk1hqx9798 , _:node1al5fk1hqx9782 , _:node1al5fk1hqx9800 , _:node1al5fk1hqx9801 , _:node1al5fk1hqx9802 , _:node1al5fk1hqx9787 , _:node1al5fk1hqx9803 , _:node1al5fk1hqx9804 , _:node1al5fk1hqx9788 , _:node1al5fk1hqx9769 , _:node1al5fk1hqx9712 , _:node1al5fk1hqx9713 , _:node1al5fk1hqx9714 , _:node1al5fk1hqx9717 , _:node1al5fk1hqx9728 , _:node1al5fk1hqx9721 , _:node1al5fk1hqx9730 , _:node1al5fk1hqx9731 , _:node1al5fk1hqx9732 , _:node1al5fk1hqx9733 , _:node1al5fk1hqx9734 , _:node1al5fk1hqx9735 , _:node1al5fk1hqx9736 , _:node1al5fk1hqx9737 , _:node1al5fk1hqx9738 , _:node1al5fk1hqx9725 , _:node1al5fk1hqx9729 , _:node1al5fk1hqx9709 , _:node1al5fk1hqx9742 , _:node1al5fk1hqx9745 , _:node1al5fk1hqx9746 , _:node1al5fk1hqx9747 , _:node1al5fk1hqx9739 , _:node1al5fk1hqx9751 , _:node1al5fk1hqx9754 , _:node1al5fk1hqx9748 , _:node1al5fk1hqx9758 , _:node1al5fk1hqx9759 , _:node1al5fk1hqx9760 , _:node1al5fk1hqx9761 , _:node1al5fk1hqx9763 , _:node1al5fk1hqx9764 , _:node1al5fk1hqx9765 , _:node1al5fk1hqx9766 , _:node1al5fk1hqx9762 , _:node1al5fk1hqx9755 , _:node1al5fk1hqx9708 , _:node1al5fk1hqx9720 , _:node1al5fk1hqx9722 , _:node1al5fk1hqx9799 , _:node1al5fk1hqx9815 , _:node1al5fk1hqx9813 , atxa-core:docRoot , _:node1al5fk1hqx9773 , _:node1al5fk1hqx9789 , _:node1al5fk1hqx9790 , _:node1al5fk1hqx9791 , _:node1al5fk1hqx9792 , _:node1al5fk1hqx9793 , _:node1al5fk1hqx9794 , _:node1al5fk1hqx9795 , _:node1al5fk1hqx9797 , _:node1al5fk1hqx9798 , _:node1al5fk1hqx9782 , _:node1al5fk1hqx9800 , _:node1al5fk1hqx9801 , _:node1al5fk1hqx9802 , _:node1al5fk1hqx9787 , _:node1al5fk1hqx9803 , _:node1al5fk1hqx9804 , _:node1al5fk1hqx9788 , _:node1al5fk1hqx9769 , _:node1al5fk1hqx9712 , _:node1al5fk1hqx9713 , _:node1al5fk1hqx9714 , _:node1al5fk1hqx9717 , _:node1al5fk1hqx9728 , _:node1al5fk1hqx9721 , _:node1al5fk1hqx9730 , _:node1al5fk1hqx9731 , _:node1al5fk1hqx9732 , _:node1al5fk1hqx9733 , _:node1al5fk1hqx9734 , _:node1al5fk1hqx9735 , _:node1al5fk1hqx9736 , _:node1al5fk1hqx9737 , _:node1al5fk1hqx9738 , _:node1al5fk1hqx9725 , _:node1al5fk1hqx9729 , _:node1al5fk1hqx9709 , _:node1al5fk1hqx9742 , _:node1al5fk1hqx9745 , _:node1al5fk1hqx9746 , _:node1al5fk1hqx9747 , _:node1al5fk1hqx9739 , _:node1al5fk1hqx9751 , _:node1al5fk1hqx9754 , _:node1al5fk1hqx9748 , _:node1al5fk1hqx9758 , _:node1al5fk1hqx9759 , _:node1al5fk1hqx9760 , _:node1al5fk1hqx9761 , _:node1al5fk1hqx9763 , _:node1al5fk1hqx9764 , _:node1al5fk1hqx9765 , _:node1al5fk1hqx9766 , _:node1al5fk1hqx9762 , _:node1al5fk1hqx9755 , _:node1al5fk1hqx9708 , _:node1al5fk1hqx9720 , _:node1al5fk1hqx9722 , _:node1al5fk1hqx9799 , _:node1al5fk1hqx9815 , _:node1al5fk1hqx9813 , atxa-core:docRoot , _:node1al5fk1hqx2104 , _:node1al5fk1hqx2225 , _:node1al5fk1hqx7355 , _:node1al5fk1hqx8120 , _:node1al5fk1hqx8131 , _:node1al5fk1hqx8132 , _:node1al5fk1hqx9081 , _:node1al5fk1hqx9575 , _:node1al5fk1hqx190 , _:node1al5fk1hqx707 , _:node1al5fk1hqx1212 , _:node1al5fk1hqx1219 , _:node1al5fk1hqx1211 , _:node1al5fk1hqx1213 , _:node1al5fk1hqx1295 , _:node1al5fk1hqx1708 , _:node1al5fk1hqx1791 , _:node1al5fk1hqx1792 , _:node1al5fk1hqx21 , _:node1al5fk1hqx720 , _:node1al5fk1hqx1079 , _:node1al5fk1hqx2013 , _:node1al5fk1hqx20 , _:node1al5fk1hqx1018 , _:node1al5fk1hqx1142 , _:node1al5fk1hqx7246 , _:node1al5fk1hqx7494 , _:node1al5fk1hqx7495 , _:node1al5fk1hqx7405 , _:node1al5fk1hqx2104 , _:node1al5fk1hqx2225 , _:node1al5fk1hqx7355 , _:node1al5fk1hqx8120 , _:node1al5fk1hqx8131 , _:node1al5fk1hqx8132 , _:node1al5fk1hqx9081 , _:node1al5fk1hqx9575 , _:node1al5fk1hqx190 , _:node1al5fk1hqx707 , _:node1al5fk1hqx1212 , _:node1al5fk1hqx1219 , _:node1al5fk1hqx1211 , _:node1al5fk1hqx1213 , _:node1al5fk1hqx1295 , _:node1al5fk1hqx1708 , _:node1al5fk1hqx1791 , _:node1al5fk1hqx1792 , _:node1al5fk1hqx21 , _:node1al5fk1hqx720 , _:node1al5fk1hqx1079 , _:node1al5fk1hqx2013 , _:node1al5fk1hqx20 , _:node1al5fk1hqx1018 , _:node1al5fk1hqx1142 , _:node1al5fk1hqx7246 , _:node1al5fk1hqx7494 , _:node1al5fk1hqx7495 , _:node1al5fk1hqx7405 .
+
